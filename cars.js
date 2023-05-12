@@ -56,3 +56,6 @@ function generateAll() {    // Generate all cars
     generatecarDOM(i);
   }
 }
+
+
+// test 
