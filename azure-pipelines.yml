@@ -12,14 +12,7 @@ pool:
 steps:
 - checkout: self
   displayName: 'Checkout Code'
-- task: AzureRmWebAppDeployment@4
-  inputs:
-    ConnectionType: 'AzureRm'
-    azureSubscription: 'Azure for Students'
-    appType: 'webApp'
-    WebAppName: 'CCSE2152233'
-    RuntimeStack: 'PHP|8.2'
-  displayName: 'Deploy to Azure Web App'
+
 
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
