@@ -16,8 +16,8 @@ steps:
   inputs:
     ConnectionType: 'AzureRm'
     azureSubscription: 'Azure for Students'
-    appType:'webAppWindows'
-    WebAppName:'CCSE2152233'
+    appType: 'webApp'
+    WebAppName: 'CCSE2152233'
     RuntimeStack: 'PHP|8.2'
   displayName: 'Deploy to Azure Web App'
 
